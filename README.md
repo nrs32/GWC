@@ -7,4 +7,6 @@ A small web server with reload capabilities.
 `npm install -g live-server`
 
 **Running the App:**  
-Run `live-server` command in the terminal to start the app in a browser.  
+Inside of the project folder, double click the file `live-server.cmd` (Windows Command Script).  
+
+To start the app in a browser, open a new tab. In the URL space, enter the IP and Port number given by the terminal that pops up.   
