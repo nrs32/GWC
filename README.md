@@ -1,6 +1,12 @@
 # GWC 2020 Project
 
 ## Running the App:  
+Check if you have Node.js installed:  
+`which npm`
+
+If not, install it:
+https://nodejs.org/en/
+
 **live-server:**  
 A small web server with reload capabilities.  
   
