@@ -1,14 +1,6 @@
 # GWC 2020 Project
 
 ## Running the App:  
-**Node.js**  
-Check if you have Node.js installed:  
-`which npm`  
-  
-If not, install it:  
-https://nodejs.org/en/  
-  
-**Running the App:**  
 Inside of the project folder, double click the file `index.html`.  
 (Ignore the "Application not found" error.)  
 
