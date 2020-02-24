@@ -3,7 +3,7 @@
     position: absolute;
     width: 150px;
     margin-left: 50%;
-    left: -75px;
+    left: -48px;
 
     /* This makes the button pretty */
     background: rgb(60, 60, 238);
@@ -14,4 +14,21 @@
 
     /* top is how far down from top of screen the button is */
     top: 70px;
+}
+
+.gameTile {
+    position: absolute;
+    margin-left: 50%;
+    left: -75px;
+    text-align: center;
+    top: 100px;
+    border: thin solid #a3a3a3;
+}
+
+.gameTile:hover {
+    box-shadow: 0px 0px 10px 7px #a3a3a3;
+}
+
+.gameTitle {
+    padding: 10px 0px 10px 0px;
 }
