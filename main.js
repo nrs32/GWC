@@ -14,7 +14,23 @@ function sendAlert() {
     // using innerHTML lets us write HTML code to add to the alertArea div
     alertArea.innerHTML +=   
         '<div class="alert alert-info alert-dismissible" role="alert">' +
-            'Code Like a Girl!' +
+            'Welcome You/Me click anything thats eye catching' +
+
+            // This part lets us close the alert
+            '<button type="button" class="close" data-dismiss="alert" aria-label="Close">' +
+                '<span aria-hidden="true">&times;</span>' +
+            '</button>' +
+        '</div>';
+}
+
+    // This lets us access and edit the div with the id okay
+    let okay = document.getElementById('okay');
+
+    // Show an alert on screen
+    // using innerHTML lets us write HTML code to add to the okay div
+    okay.innerHTML +=   
+        '<div class="alert alert-info alert-dismissible" role="alert">' +
+            'Welcome You/Me click anything thats eye catching' +
 
             // This part lets us close the alert
             '<button type="button" class="close" data-dismiss="alert" aria-label="Close">' +
