@@ -13,10 +13,13 @@
 
 		<!-- Name that appears in tab -->
 		<title>Girls Who Code App 2020</title>
+        <!--Font Style-->
+		<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+		<!--second font style-->
+		<link href="https://fonts.googleapis.com/css?family=Federant&display=swap" rel="stylesheet">
 	</head>
-	<body>
+	<body class="background">
 		<!-- class="container" provides padding and styling for app outline -->
-		<div class="container">
 			<!-----------------------------------------------------------------------
 									START EDITING HERE 
 			------------------------------------------------------------------------->
@@ -24,16 +27,16 @@
 			<!-- Style a button with a CSS class and show an alert on click -->
 			<!-- sendAlert() is a function defined in our main.js file -->
 			<button class="girlsWhoCodeButton" onClick="sendAlert()">
-				Girls Who Code
+				Girls Who <span class="codeGameFont">Code Games</span> 
 			</button>
-
+            <img src="./code.png"/>
 			<!-- We can reference this div using its id to edit it with JavaScript -->
 			<div id="alertArea"></div>
 
 			<!-----------------------------------------------------------------------
 									STOP EDITING HERE 
 			------------------------------------------------------------------------->
-		</div>
+	
 
 		<!-- Our JavaScript Code File: -->
 		<script src="main.js"></script>
