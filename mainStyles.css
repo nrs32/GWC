@@ -14,7 +14,7 @@
     background: rgb(76, 8, 7);
     color: white;
     border: none;
-    box-shadow: 2px 2px 5px grey;
+    box-shadow: 2px 2px 5px black;
     font-family: monospace;
     font-size: xx-large;
     text-align: center;
@@ -30,7 +30,7 @@
     background: rgb(76, 8, 7);
     color: white;
     border: none;
-    box-shadow: 2px 2px 5px grey;
+    box-shadow: 2px 2px 5px black;
     font-family: monospace;
     font-size: larger;
     text-align: center;
