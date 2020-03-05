@@ -14,29 +14,34 @@
     background: rgb(76, 8, 7);
     color: white;
     border: none;
-    box-shadow: 2px 2px 5px grey;
+    box-shadow: 2px 2px 5px black;
     font-family: monospace;
     font-size: xx-large;
     text-align: center;
     padding-top: 35px;
+    top: 0px;
 }
 
-.game-one {
-    position: absolute;
+.game {
     width: 130px;
     height: 100px;
-    margin-left: 100px;
-
+    margin-right: 30px;
     background: rgb(76, 8, 7);
     color: white;
     border: none;
-    box-shadow: 2px 2px 5px grey;
+    box-shadow: 2px 2px 5px black;
     font-family: monospace;
     font-size: larger;
     text-align: center;
     padding-top: 40px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
 
-    margin-top: 150px;
+.invisibleGameDiv {
+    /* width: 100%; */
+    margin-top: 100px;
+    /* padding: 30px; */
 }
 
 /* .girlsWhoCodeButton {

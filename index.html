@@ -13,6 +13,10 @@
 
 		<!-- Name that appears in tab -->
 		<title>Girls Who Code App 2020</title>
+
+		<!-- Import JS file -->
+		<script type="text/javascript" src="./main.js"></script>
+
 	</head>
 	<body class="background">
 		<!-- class="container" provides padding and styling for app outline -->
@@ -24,9 +28,16 @@
 			<div class="header">
 				Girls Who Code
 			</div>
-			<div class=game-one>
-				GAME #1
+			<div class="container" style="margin-top: 100px; padding-top: 30px;" id="invisibleGameDiv">
+
 			</div>
+			<!-- <div class="invisibleGameDiv" >
+
+			</div> -->
+
+			<script>
+				gameGenerator();
+			</script>
 									<!-- Style a button with a CSS class and show an alert on click -->
 									<!-- sendAlert() is a function defined in our main.js file -->
 									<!-- <button class="girlsWhoCodeButton" onClick="sendAlert()">
