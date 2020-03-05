@@ -22,7 +22,7 @@ function sendAlert() {
             '</button>' +
         '</div>';
 }
-
+function nhi_luul() {
     // This lets us access and edit the div with the id okay
     let okay = document.getElementById('okay');
 
