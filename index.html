@@ -11,30 +11,20 @@
 		<!-- Link to our own styling -->
 		<link rel="stylesheet" href="mainStyles.css">
 
+		<!-- Import JS file -->
+		<script type="text/javascript" src="./main.js"></script>
+
 		<!-- Name that appears in tab -->
 		<title>Girls Who Code App 2020</title>
 	</head>
 	<body>
-		<!-- class="container" provides padding and styling for app outline -->
-		<div class="container">
-			<!-----------------------------------------------------------------------
-									START EDITING HERE 
-			------------------------------------------------------------------------->
+		<img src="bowlingbackground.jpg" class= "image"/>
+		<img src="bowlingball2.jpg" class="bowlingball" id= "space"/>
 
-			<!-- Style a button with a CSS class and show an alert on click -->
-			<!-- sendAlert() is a function defined in our main.js file -->
-			<button class="girlsWhoCodeButton" onClick="sendAlert()">
-				Girls Who Code
-			</button>
+		<div class="button1" onClick="reset()"> Reset </div>
 
-			<!-- We can reference this div using its id to edit it with JavaScript -->
-			<div id="alertArea"></div>
-
-			<!-----------------------------------------------------------------------
-									STOP EDITING HERE 
-			------------------------------------------------------------------------->
-		</div>
-
+		<script>spaceListener()</script>
+		
 		<!-- Our JavaScript Code File: -->
 		<script src="main.js"></script>
 

@@ -1,17 +1,37 @@
-.girlsWhoCodeButton {
-    /* This centers the button */
-    position: absolute;
-    width: 150px;
-    margin-left: 50%;
-    left: -75px;
-
-    /* This makes the button pretty */
-    background: rgb(60, 60, 238);
-    color: white;
+.image{
+    margin: auto;
+    display: block;
+    margin-top: 200px;
+}
+.bowlingball{
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    display: block;
+    margin: auto;
+    margin-top: -100px;
+    transition: 0.56s;
+}
+.bowlingballposition{
+    border-radius: 50%;
+    width:80px;
+    height:80px;
+    display: block;
+    margin: auto;
+    margin-top: -350px;
+    transition: 0.56s;
+}
+.button1 {
+    background: aquamarine;
     border-radius: 5px;
-    border: none;
-    box-shadow: 2px 2px 5px grey;
+    top: 650px;
+    position: fixed;
+    left: 50%;
+    margin-left: -30px; /* <-- half the width */
+    cursor: pointer;
+    padding: 15px;
+}
 
-    /* top is how far down from top of screen the button is */
-    top: 70px;
+.button1:hover {
+    background: rgb(81, 212, 169);
 }
