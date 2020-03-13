@@ -19,7 +19,7 @@
     display: block;
     margin: auto;
     margin-top: -350px;
-    transition: 0.56s;
+    transition: 0.01s;
 }
 .button1 {
     background: aquamarine;
