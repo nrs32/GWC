@@ -5,7 +5,7 @@ function sendAlert() {
     /* This message will appear in the console
      * The console is visble in your browser by clicking either
      * F12 or Ctrl + Shift + i */
-    console.log("You clicked the Girls Who Code button!")
+    console.log("You clicked the game button!")
 
     // This lets us access and edit the div with the id alertArea
     let alertArea = document.getElementById('alertArea');
