@@ -1,3 +1,17 @@
+function gameGenerator() {
+    let gameTileArea = document.getElementById('invisibleGameDiv');
+    var numGames = 77;
+    for (let i = 0; i < numGames; i++) {
+        gameTileArea.innerHTML +=
+            `<div class=game> `+
+                `GAME #` + (i + 1) +
+            `</div>`
+    }
+}
+
+
+
+
 // This function is called when the Girls Who Code button is clicked
 // Because we used onClick in the HTML with the function sendAlert()
 function sendAlert() {
