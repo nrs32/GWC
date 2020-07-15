@@ -33,7 +33,7 @@
     font-family: monospace;
     font-size: larger;
     text-align: center;
-    padding-top: 40px;
+    /* padding-top: 40px; */
     display: inline-block;
     margin-bottom: 30px;
 }

@@ -3,13 +3,15 @@ function gameGenerator() {
     var numGames = 77;
     for (let i = 0; i < numGames; i++) {
         gameTileArea.innerHTML +=
-            `<div class=game> `+
+            `<button class="game" type="submit"> `+
                 `GAME #` + (i + 1) +
-            `</div>`
+            `</button>`
     }
 }
 
-
+function assignLink() {
+    
+}
 
 
 // This function is called when the Girls Who Code button is clicked
