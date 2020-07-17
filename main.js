@@ -1,16 +1,21 @@
 function gameGenerator() {
     let gameTileArea = document.getElementById('invisibleGameDiv');
     var numGames = 77;
-    for (let i = 0; i < numGames; i++) {
+    gameList.forEach(game => {
+        gameTileArea.innerHTML +=
+            `<form class="form" action="${game.link}" method="get" target="_blank">
+                <button class="game" type="submit">
+                <img src="${game.thumbnail}" style="width: 60px;"/> 
+                ${game.title}
+                </button>
+            </form>`
+    })
+    /* for (let i = 0; i < numGames; i++) {
         gameTileArea.innerHTML +=
             `<button class="game" type="submit"> `+
                 `GAME #` + (i + 1) +
             `</button>`
-    }
-}
-
-function assignLink() {
-    
+    } */
 }
 
 
