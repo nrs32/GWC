@@ -5,7 +5,7 @@ function gameGenerator() {
         gameTileArea.innerHTML +=
             `<form class="form" action="${game.link}" method="get" target="_blank">
                 <button class="game" type="submit">
-                <img src="${game.thumbnail}" style="width: 60px;"/> 
+                <img src="${game.thumbnail}"style="height: 100px;padding-bottom: 15px;"/> 
                 ${game.title}
                 </button>
             </form>`

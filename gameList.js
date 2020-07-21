@@ -2,7 +2,7 @@ var gameList = [
     {
         title: "Hangman",
         link: "https://studio.code.org/projects/applab/L81SqYiyb5Xk5wdhBUxGJoQIpDv-9B-8vr__3ttv3po",
-        thumbnail: ""
+        thumbnail: "./Thumbnails/hangman.jpg"
     },
     {
         title: "Maze",
