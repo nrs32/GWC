@@ -3,10 +3,18 @@ function gameGenerator() {
     var numGames = 77;
     gameList.forEach(game => {
         gameTileArea.innerHTML +=
-            `<form class="form" action="${game.link}" method="get" target="_blank">
+            /* `<form class="form" action="${game.link}" method="get" target="_blank">
                 <button class="game" type="submit">
                 <img src="${game.thumbnail}"style="height: 100px;padding-bottom: 15px;"/> 
                 ${game.title}
+                </button>
+            </form>` */
+            `<form class="form" action="${game.link}" method="get" target="_blank">
+                <button class="button" type="submit">    
+                    <img src="${game.thumbnail}" class="image"/> 
+                        <div class="caption">
+                            ${game.title}
+                        </div>
                 </button>
             </form>`
     })
